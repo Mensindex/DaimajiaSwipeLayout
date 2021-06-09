@@ -1,0 +1,40 @@
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mySwipe"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/teal_200"
+    app:clickToClose="true">
+    <!-- Bottom View Start-->
+    <LinearLayout
+        android:id="@+id/bottom_wrapper"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:background="#66ddff00"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <!--What you want to show-->
+        <TextView
+            android:id="@+id/favorite"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/purple_200"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Favorite"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Swipe Layout"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#fff">
+    </TextView>
+    <!-- Bottom View End-->
+
+    <!-- Surface View Start -->
+    <!-- Surface View End -->
+</com.daimajia.swipe.SwipeLayout>
